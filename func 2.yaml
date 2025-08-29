@@ -1,4 +1,4 @@
-
+##testtttttttt umbiiiiiiiiii
 schema_version: 20180708
 name: file-to-7zip-converter
 version: 1.0.0
@@ -9,5 +9,6 @@ triggers:
 - name: file-to-7zip-trigger
   type: http
   source: /convert-to-7zip
+
 
 ---
