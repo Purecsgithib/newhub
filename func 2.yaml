@@ -1,0 +1,13 @@
+
+schema_version: 20180708
+name: file-to-7zip-converter
+version: 1.0.0
+runtime: docker
+memory: 1024
+timeout: 600
+triggers:
+- name: file-to-7zip-trigger
+  type: http
+  source: /convert-to-7zip
+
+---
